@@ -125,10 +125,10 @@ h3 {
     text-align: center;
 }
 .my-works .col-md-12:nth-child(1) {
-    background-color: #e3fdfd;
+	background-color: #a6e3e9;
 }
 .my-works .col-md-12:nth-child(2) {
-    background-color: #a6e3e9;
+    background-color: #e3fdfd;
 }
 .my-works h2{
 	margin-bottom: -24px;
@@ -243,6 +243,9 @@ padding: 75px 0;
     position: relative;
     display: block;
     z-index: 999;
+}
+.works-sec h5{
+	padding-bottom: 40px;
 }
 .works-sec img{
 	max-width: 90%
