@@ -130,6 +130,9 @@ h3 {
 .my-works .col-md-12:nth-child(2) {
     background-color: #e3fdfd;
 }
+.my-works .col-md-12:nth-child(3) {
+    background-color: #e1f4f9;
+}
 .my-works h2{
 	margin-bottom: -24px;
     position: relative;
@@ -156,10 +159,11 @@ h3 {
 	transition: all 300ms ease 0ms;
 }
 .view-work-cta:hover{
-	padding: 12px 28px;
-	color: #000;
-	transition: all 300ms ease 0ms;
 	text-decoration: none;
+    background: #bb1605;
+    transition: all .5s ease;
+    border: 2px solid #bb1605;
+    color: #fff;
 }
 /*My works sec styles end*/
 
@@ -244,7 +248,7 @@ padding: 75px 0;
     display: block;
     z-index: 999;
 }
-.works-sec h5{
+.works-sec {
 	padding-bottom: 40px;
 }
 .works-sec img{
