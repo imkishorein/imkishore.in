@@ -251,6 +251,13 @@ padding: 75px 0;
 .works-sec h5{
 	padding-bottom: 40px;
 }
+.works-sec h5 a{
+	text-decoration: underline;
+	color: #000000;
+}
+.works-sec h5 a:hover{
+	color: #bb1605;
+}
 .works-sec img{
 	max-width: 90%
 }
